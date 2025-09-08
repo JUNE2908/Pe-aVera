@@ -1,0 +1,15 @@
+nuestro blueJ no es tan inductivo asi que aqui agregaremos algunas instrucciones para realizar pruebas:
+- en las clases damos click derecho a Simulator, precionamos donde dice New Simulator() y lo nombramos sim1
+- en el objeto sim1 el cual sale abajo le damos click derecho y presionamos establecerVisible(), nos saldra un menu y escribimos true
+- luego vamos a la opcion crearuta() y pondremos el valor 0
+-cuando se genere el canvas vamos nuevamente al objeto y le damos click derecho
+- para crear robots y tiendas tendremos los comandos agregarTienda() y agregarRobot() les agregaremos los siguientes comandos
+a agregarTienda pondremos (1,10,20), (2,30,40),(3,60,60) y a agregarRobot pondremos (1,0),(2,50)
+- cuando ya los hayamos generado vamos a la calse ComandoMovimiento, le damos click drecho y le damos click a new ComandoMovimiento(int dx, int dy)
+- crearemos los siguientes movimientos c(c5,5,0) , (c10,10,0) , (c20N,-20,0) esto nos creara objetos nuevos
+- vamos al objeto de sim1 y le damos click izquierdo, vamos a la opcion de moverRobot e ingresaremos los comando (1, c5) (1, c10), vemos como las bolas
+se mueven a las tiendas y la barra de ingreso aumenta, el juego se realiza paso por paso por lo cual toma un poco de tiempo
+- para ver mi progreso y comenzar un nuevo dia damos click derecho en sim1 y vamos a obtenerInfoRuta()
+- si hacemos lo mismo y seleccionamos esta vez reiniciarYObtenerProgreso() veremos cuanto fue la ganancioa del dia y la barra se reinicia
+- para porbar errores ingrese estos comandos en sim1 agregarTienda(4, 30, 99), agregarRobot(3, 50), eliminarRobot(99)
+- para empezar una nueva prueba dele click en sim1 a finalizar()
