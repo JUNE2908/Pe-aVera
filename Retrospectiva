@@ -1,0 +1,53 @@
+Retrosprectiva 
+1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+R/ Mini-ciclo de modelado: se definieron clases base como SilkRoad, Simulator, TiendaDTO, RobotDTO, etc. para representar la lógica del problema.
+
+Mini-ciclo de vista: se diseñaron y ajustaron las representaciones gráficas como VistaTiendaExtRectangle, VistaRobotExtCircle, VistaBarraGananciaExtRectangle, hasta conseguir una interfaz estable.
+
+Mini-ciclo de integración: se unieron lógica y vista mediante VistaLienzo y MapeadorMatriz.
+
+Mini-ciclo de pruebas: cada cambio se validó con secuencias de uso agregar tienda/robot, mover, reiniciar.
+
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿por qué?
+R/ se cumplen los requisitos de robots, tiendas, barra de progreso y reinicio de dia, nos encontramos ajustando algunos detalles como tiempo de muestra de vistas, calcular algunas funciones, etc.
+La razon es debido a que estamos entrando en este mundo de Java y estamos aprendiendo a implementar nuevos comandos y la prueba y error toman tiempo.
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre)
+R/ Hildebrando Peña 16 horas
+Juan Vera 15 horas 
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+R/ el mayor logro fue poder ubicar de la forma que queriamos todo el proyecto en el blueJ para darle el sentido que queriamos y nos pedia la guia
+esto se debe a que estamos entrando en este nuevo lenguaje asi que poder hacer esto es alentador
+
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+R/ nuestro mayor problema fue la comunicacion, el dialogar para organizar el orden de desarrollo de los proyectos por que un estudiante cuenta con
+mas tiempo libre que el otro, pero los dos decidimos tomar el tiempo en las noches y el fin de semana para hablar y realizar bien todo el proyecto
+
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+R/ bien como equipo fue ayudarnos mutuamente revisando lo que realizaba el otro para que cumpliera las exigencias del trabajo y no hubieran errores,
+nos comprometemos darle un poco mas de tiempo del que entregamos para este proyecto para realizar mas pruebas y ofrecer un mejor resultado, igual que estudiar 
+todo lo que se nos hizo desconocido de este proyecto
+7. Considerando las prácticas XP incluidas en los laboratorios. ¿cuál fue la más útil? ¿por qué?
+R/ la mas util para nosotros fue el desarrollo incremental con retroalimentacion rapida debido a que el problema se entendia mejor
+a medida que agregabamos nuevas partes al codigo y las probabamos 
+
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+R/ usamos como referencias la documentacion oficial de Java La usamos para entender Graphics2D, doble buffer, repintado en Swing y 
+el manejo de Shape (Ellipse2D, Rectangle, Polygon), lo cual fue clave para estabilizar el render y evitar “parpadeos”.
+
+Extreme Programming. Usamos mini–ciclos cortos con feedback inmediato (construir → probar en BlueJ → ajustar), 
+lo que nos permitió detectar pronto problemas de identidad de vistas y sincronización.
+
+Barnes, D. J., & Kölling, M. (2016). Objects First with Java: A Practical Introduction using BlueJ (6th ed.). Pearson.
+
+Beck, K. (2004). Extreme Programming Explained: Embrace Change (2nd ed.). Addison-Wesley.
+
+Fowler, M. (2018). Refactoring: Improving the Design of Existing Code (2nd ed.). Addison-Wesley.
+
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley.
+
+Oracle. (s. f.). Java Platform, Standard Edition – API Specification (Java 2D, AWT, Swing). Oracle Corporation.
+
+Sedgewick, R., & Wayne, K. (2011). Algorithms (4th ed.). Addison-Wesley.
+
+BlueJ Team. (s. f.). BlueJ Tutorial / User Guide. University of Kent.
+
